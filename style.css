@@ -1,27 +1,24 @@
 body{
     background: rgb(220, 240, 248);
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;   
+    font-family: Arial, Helvetica, sans-serif;  
+    position:relative;
+    width:100%;
+    max-width:1024px;
+    margin:0 auto;
+    margin-top:0px; 
 }
 
 img{
     width: 200px;
     height: 200px;
     border-radius: 100px;
+    float: left;
 }
 
 span{
     font-weight: bold;  
 }
 
-header, section, footer{
-   
-    position:relative;
-    width:100%;
-    max-width:1024px;
-    margin:0 auto;
-    margin-top:0px;
-}
 footer{
     font-style: italic;
 }
