@@ -8,6 +8,10 @@ body{
     margin-top:0px; 
 }
 
+h3{
+    text-align: center;
+}
+
 img{
     width: 200px;
     height: 200px;
@@ -21,5 +25,18 @@ span{
 
 footer{
     font-style: italic;
+}
+
+section, footer{
+    border: 1px solid rgb(128, 216, 243);
+    border-radius: 20px;
+    padding-top: 20px;
+    margin: 10px;
+    text-align: left;
+}
+
+.contacts {
+	display: flex;
+	justify-content: space-around;
 }
 
